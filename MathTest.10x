@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<N10X>
+	<Workspace>
+		<FileTypes>All Code Files</FileTypes>
+		<ExcludeFilters></ExcludeFilters>
+		<SyncFiles>true</SyncFiles>
+		<Recursive>true</Recursive>
+		<IsVirtual>false</IsVirtual>
+		<IsFolder>false</IsFolder>
+		<BuildCommand>cmake --build build --config $(Configuration)</BuildCommand>
+		<RebuildCommand>cmake --build build --config $(Configuration) --clean-first</RebuildCommand>
+		<BuildFileCommand></BuildFileCommand>
+		<CleanCommand>cmake --build build --config $(Configuration) --target -clean</CleanCommand>
+		<RunCommand></RunCommand>
+		<DebugCommand>$(RootWorkspaceDirectory)/build/$(Configuration)/MathTest.exe</DebugCommand>
+		<ExePathCommand></ExePathCommand>
+		<DebugSln></DebugSln>
+		<Configurations>
+			<Configuration>Debug</Configuration>
+			<Configuration>Release</Configuration>
+			<Configuration>MinSizeRel</Configuration>
+			<Configuration>RelWithDebInfo</Configuration>
+		</Configurations>
+		<Platforms>
+			<Platform>x64</Platform>
+		</Platforms>
+		<AdditionalIncludePaths>
+			<AdditionalIncludePath>G:/Libraries/install/include/*</AdditionalIncludePath>
+		</AdditionalIncludePaths>
+		<ConfigProperties>
+			<Configuration>
+				<Name>RelWithDebInfo:x64</Name>
+				<Defines></Defines>
+				<ForceIncludes></ForceIncludes>
+			</Configuration>
+		</ConfigProperties>
+		<Children></Children>
+	</Workspace>
+</N10X>
